@@ -6,3 +6,21 @@
     color: white;
     /* margin: 20px; */
 }
+
+.btn {
+    padding: 10px;
+    background-color: rgba(0, 217, 255, 0.479);
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.btn-visited {
+    color: black;
+    border-color: black;
+}
+
+.visited {
+    background-color: rgb(196, 251, 255);
+    color: black;
+}

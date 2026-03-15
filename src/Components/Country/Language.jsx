@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Language = ({ languages }) => {
-    // console.log(languages) // This is multiple object by looping through map()
+    // console.log(languages) // This is object coming by looping through map()
 
     // Object to Array
     const LanguageList = Object.values(languages)
-    // console.log(LanguageList)
+    // console.log(LanguageList.join(", "))
 
     return (
         <div>
